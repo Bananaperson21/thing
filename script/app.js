@@ -27,10 +27,10 @@ var movement = {
   up:false,
   down:false,
   move:function(){
-    if(movement.left===true){carcater.x-=5;}
-    if(movement.right===true){carcater.x+=5;}
-    if(movement.up===true){carcater.y-=5;}
-    if(movement.down===true){carcater.y+=5;}
+    if(movement.left===true){caracter.x-=5;}
+    if(movement.right===true){caracter.x+=5;}
+    if(movement.up===true){caracter.y-=5;}
+    if(movement.down===true){caracter.y+=5;}
   },
 }
 document.body.onkeydown = function(event){
